@@ -1,0 +1,45 @@
+.row{
+    margin: 5% 14%;
+    color:beige;
+    font-family: 'big shoulders display';
+    text-align: center;
+}
+.sedans{
+    float: left;
+    width: 25%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+h3{
+    font-family: 'lexend deca';
+}
+.suvs{
+    float:left;
+    width: 25%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 5px 5px 5px 5px;
+}
+.luxury{
+    float:left;
+    width: 25%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 5px 5px 5px 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.row::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
